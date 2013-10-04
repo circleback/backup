@@ -109,6 +109,7 @@ module Backup
     autoload :Pushover,  File.join(NOTIFIER_PATH, 'pushover')
     autoload :HttpPost,  File.join(NOTIFIER_PATH, 'http_post')
     autoload :Nagios,    File.join(NOTIFIER_PATH, 'nagios')
+    autoload :Sensu,     File.join(NOTIFIER_PATH,  'sensu')
   end
 
   ##
